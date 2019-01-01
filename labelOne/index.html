@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form One</title>
+</head>
+<body>
+
+    <h1>Login</h1>
+
+<!--  Required:
+        action - where the form sends data to
+        method - what HTTP method (GET/POST)   -->
+
+   
+    <form>  <!-- action="http://wikipedia.org" method="GET" -->
+         <label>Username:
+        <input type="text" placeholder="username">
+        </label>
+        <label>Password:
+        <input type="password" placeholder="password">
+        </label>
+        <input type="submit">
+ 
+    </form>
+
+    <form>  <!-- action="http://wikipedia.org" method="GET" -->
+        <label for="username">Username: </label>
+       <input id="username" type="text" placeholder="username">
+     
+       <label for="password">Password: </label>
+       <input id="password" type="password" placeholder="password">
+ 
+       <input type="submit">
+
+   </form>
+
+
+
+</body>
+</html>
